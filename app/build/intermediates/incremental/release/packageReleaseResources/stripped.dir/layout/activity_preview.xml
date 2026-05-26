@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/brand_background">
+
+    <!-- Header / Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_bottom_gradient"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Student ID Card Preview"
+            app:titleTextColor="@color/brand_white"
+            app:titleCentered="true"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:navigationIconTint="@color/brand_white"
+            app:elevation="0dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+    <!-- ID Card Container -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="493dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="@color/brand_black"
+        android:layout_marginBottom="24dp">
+
+        <!-- ID Card Background template image -->
+        <FrameLayout
+            android:id="@+id/flCardBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/id_card_template_gold">
+
+            <!-- Content overlay container -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Circular/Rectangle Student Photo Container -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/photoCardView"
+                    android:layout_width="156dp"
+                    android:layout_height="156dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="120dp"
+                    app:cardCornerRadius="78dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+
+                    <ImageView
+                        android:id="@+id/ivPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:background="@android:color/transparent" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Student Details Area -->
+                <LinearLayout
+                    android:id="@+id/llStudentDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/photoCardView"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="24dp">
+
+                    <!-- Student Name -->
+                    <TextView
+                        android:id="@+id/tvStudentName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rahul Sharma"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brand_white"
+                        android:gravity="center" />
+
+                    <!-- Divider -->
+                    <View
+                        android:layout_width="60dp"
+                        android:layout_height="1.5dp"
+                        android:background="#D4AF37"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="6dp" />
+
+                    <!-- Details Table -->
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="1">
+
+                        <TableRow android:layout_marginBottom="2dp">
+                            <TextView
+                                android:text="Roll No:"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="#A0A0A0"
+                                android:layout_marginEnd="8dp"/>
+                            <TextView
+                                android:id="@+id/tvCardRoll"
+                                android:text="003"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/brand_white"/>
+                        </TableRow>
+
+                        <TableRow android:layout_marginBottom="2dp">
+                            <TextView
+                                android:text="Class/Sec:"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="#A0A0A0"
+                                android:layout_marginEnd="8dp"/>
+                            <TextView
+                                android:id="@+id/tvCardClassSec"
+                                android:text="10 - A"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/brand_white"/>
+                        </TableRow>
+
+                        <TableRow>
+                            <TextView
+                                android:text="Adm No:"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="#A0A0A0"
+                                android:layout_marginEnd="8dp"/>
+                            <TextView
+                                android:id="@+id/tvCardAdmNo"
+                                android:text="SCH01-10-A-3"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/brand_white"/>
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+
+                <!-- Hidden legacy fields for code reference compatibility -->
+                <TextView
+                    android:id="@+id/tvCardSchool"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvStudentDetails"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="gone" />
+
+                <!-- Dynamic Barcode Overlay -->
+                <ImageView
+                    android:id="@+id/ivBarcode"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="38dp"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Control Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnRetake"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="Retake"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/brand_primary"
+            app:strokeColor="@color/brand_outline"
+            app:cornerRadius="28dp"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="Save ID Card"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/brand_primary"
+            android:textColor="@color/brand_white"
+            app:cornerRadius="28dp"
+            style="@style/Widget.Material3.Button" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/brand_primary"
+        android:visibility="gone" />
+
+</LinearLayout>
+
+</LinearLayout>

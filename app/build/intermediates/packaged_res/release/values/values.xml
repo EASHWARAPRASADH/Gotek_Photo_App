@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_background">#F5F5F7</color>
+    <color name="brand_black">#000000</color>
+    <color name="brand_error">#FF3B30</color>
+    <color name="brand_info">#0071E3</color>
+    <color name="brand_on_background">#1D1D1F</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_on_surface">#1D1D1F</color>
+    <color name="brand_on_surface_variant">#86868B</color>
+    <color name="brand_outline">#E2E2E7</color>
+    <color name="brand_outline_variant">#D2D2D7</color>
+    <color name="brand_pending">#FF9500</color>
+    <color name="brand_primary">#1D1D1F</color>
+    <color name="brand_primary_variant">#000000</color>
+    <color name="brand_secondary">#0071E3</color>
+    <color name="brand_secondary_variant">#0077ED</color>
+    <color name="brand_success">#34C759</color>
+    <color name="brand_surface">#FFFFFF</color>
+    <color name="brand_surface_variant">#E8E8ED</color>
+    <color name="brand_transparent">#00000000</color>
+    <color name="brand_white">#FFFFFF</color>
+    <color name="gray">#86868B</color>
+    <color name="green">#34C759</color>
+    <color name="light_gray">#F5F5F7</color>
+    <color name="purple_200">#0071E3</color>
+    <color name="purple_500">#1D1D1F</color>
+    <color name="purple_700">#000000</color>
+    <color name="red">#FF3B30</color>
+    <color name="teal_200">#34C759</color>
+    <color name="teal_700">#28CD41</color>
+    <string name="app_name">Student ID Photo Capture</string>
+    <string name="camera_permission_required">Camera permission is required</string>
+    <string name="capture">Capture</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="retake">Retake</string>
+    <string name="save">Save</string>
+    <string name="select_student">Select Student</string>
+    <string name="username">Username</string>
+    <style name="Theme.StudentIDPhotoCapture" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_variant</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        
+        
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorSecondaryVariant">@color/brand_secondary_variant</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary</item>
+        
+        
+        <item name="android:statusBarColor">@color/brand_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        
+        <item name="android:navigationBarColor">@color/brand_background</item>
+        <item name="android:windowBackground">@color/brand_background</item>
+        <item name="colorSurface">@color/brand_surface</item>
+        <item name="colorOnSurface">@color/brand_on_surface</item>
+        <item name="colorSurfaceVariant">@color/brand_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/brand_on_surface_variant</item>
+        <item name="colorOutline">@color/brand_outline</item>
+        <item name="colorError">@color/brand_error</item>
+        
+        
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">28dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

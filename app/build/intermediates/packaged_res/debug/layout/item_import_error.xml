@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/brand_white">
+
+    <TextView
+        android:id="@+id/tvRowNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Row 1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/brand_black" />
+
+    <TextView
+        android:id="@+id/tvStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID: 123"
+        android:textSize="12sp"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error message here"
+        android:textSize="12sp"
+        android:textColor="@color/red"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

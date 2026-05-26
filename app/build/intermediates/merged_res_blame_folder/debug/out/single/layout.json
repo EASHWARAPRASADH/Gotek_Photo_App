@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_student_selection.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_student_selection.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_camera.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_dashboard.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_template_customization.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_template_customization.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_student.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_student.xml",
+        "source": "com.studentidphotocapture.app-main-66:/layout/item_student.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_photo_viewer.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_photo_viewer.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_ultra_dashboard.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_ultra_dashboard.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_csv_import.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_csv_import.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_photo_gallery.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_photo_gallery.xml"
+    },
+    {
+        "merged": "com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_dashboard.xml",
+        "source": "com.studentidphotocapture.app-main-66:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/dialog_csv_mapping.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/dialog_csv_mapping.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_dropdown.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_spinner_selected.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_spinner_selected.xml"
+    },
+    {
+        "merged": "com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_template_customization.xml",
+        "source": "com.studentidphotocapture.app-main-66:/layout/activity_template_customization.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_photo_gallery.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_photo_gallery.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_import_error.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_import_error.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_login.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/activity_preview.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/activity_preview.xml"
+    },
+    {
+        "merged": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-mergeDebugResources-63:/layout/item_institution.xml",
+        "source": "/Users/eash/.gradle/daemon/8.2/com.studentidphotocapture.app-main-66:/layout/item_institution.xml"
+    }
+]

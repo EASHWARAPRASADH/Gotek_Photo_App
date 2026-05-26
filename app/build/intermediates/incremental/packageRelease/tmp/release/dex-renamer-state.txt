@@ -1,0 +1,7 @@
+#Wed May 20 04:40:08 IST 2026
+base.0=/Users/eash/Downloads/android app 2/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/Users/eash/Downloads/android app 2/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

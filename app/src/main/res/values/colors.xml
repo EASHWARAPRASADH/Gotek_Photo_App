@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors (Apple Space Gray & Link Blue Accent) -->
+    <color name="brand_primary">#1D1D1F</color> <!-- Apple Space Gray/Black -->
+    <color name="brand_primary_variant">#000000</color> <!-- Pure Black -->
+    <color name="brand_on_primary">#FFFFFF</color>
+    
+    <color name="brand_secondary">#0071E3</color> <!-- Apple Link Blue -->
+    <color name="brand_secondary_variant">#0077ED</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    
+    <!-- Background & Surface -->
+    <color name="brand_background">#F5F5F7</color> <!-- Apple Signature Off-white -->
+    <color name="brand_on_background">#1D1D1F</color> <!-- Apple Deep Charcoal -->
+    <color name="brand_surface">#FFFFFF</color>
+    <color name="brand_on_surface">#1D1D1F</color>
+    <color name="brand_surface_variant">#E8E8ED</color> <!-- Apple Gray control/input surface -->
+    <color name="brand_on_surface_variant">#86868B</color> <!-- Apple Gray helper text -->
+    
+    <!-- Status Colors (Apple System Tones) -->
+    <color name="brand_success">#34C759</color> <!-- Apple System Green -->
+    <color name="brand_error">#FF3B30</color> <!-- Apple System Red -->
+    <color name="brand_pending">#FF9500</color> <!-- Apple System Orange -->
+    <color name="brand_info">#0071E3</color>
+    
+    <!-- Neutrals & Support Colors -->
+    <color name="brand_outline">#E2E2E7</color>
+    <color name="brand_outline_variant">#D2D2D7</color>
+    <color name="brand_black">#000000</color>
+    <color name="brand_white">#FFFFFF</color>
+    <color name="brand_transparent">#00000000</color>
+    
+    <!-- Support for Legacy and Missing Colors -->
+    <color name="gray">#86868B</color>
+    <color name="light_gray">#F5F5F7</color>
+    <color name="red">#FF3B30</color>
+    <color name="green">#34C759</color>
+    
+    <!-- Legacy Support (Old palette mapped to new) -->
+    <color name="purple_200">#0071E3</color>
+    <color name="purple_500">#1D1D1F</color>
+    <color name="purple_700">#000000</color>
+    <color name="teal_200">#34C759</color>
+    <color name="teal_700">#28CD41</color>
+</resources>

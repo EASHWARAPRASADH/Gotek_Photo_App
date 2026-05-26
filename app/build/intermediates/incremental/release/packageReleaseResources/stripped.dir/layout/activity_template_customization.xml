@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_bottom_gradient"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Template Designer"
+            app:titleTextColor="@color/brand_white"
+            app:titleCentered="true"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:navigationIconTint="@color/brand_white"
+            app:elevation="0dp" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Top Half: Live Card Preview -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/brand_primary"
+            android:padding="20dp">
+
+            <!-- Card Wrap for Shadow and Clipping -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardPreviewContainer"
+                android:layout_width="220dp"
+                android:layout_height="374dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="16dp"
+                app:cardBackgroundColor="@color/brand_black">
+
+                <!-- ID Card Background Image Frame -->
+                <FrameLayout
+                    android:id="@+id/flCardBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/id_card_template_gold">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <!-- Photo Slot mockup -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/photoCardView"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="85dp"
+                            app:cardCornerRadius="55dp"
+                            app:cardElevation="0dp"
+                            app:cardBackgroundColor="#E0E0E0">
+
+                            <!-- Mock Photo -->
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@android:drawable/ic_menu_gallery"
+                                android:padding="20dp"
+                                app:tint="@color/brand_on_surface_variant" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Student Details text block -->
+                        <LinearLayout
+                            android:id="@+id/llStudentDetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/photoCardView"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:paddingHorizontal="16dp">
+
+                            <TextView
+                                android:id="@+id/tvStudentName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="JOHN DOE"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/brand_white"
+                                android:gravity="center" />
+
+                            <View
+                                android:id="@+id/vDivider"
+                                android:layout_width="40dp"
+                                android:layout_height="1dp"
+                                android:background="#D4AF37"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:id="@+id/tvClassRoll"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Class: 10-A | Roll: 001"
+                                android:textSize="9sp"
+                                android:textColor="@color/brand_white"
+                                android:gravity="center" />
+
+                            <TextView
+                                android:id="@+id/tvAdmNo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Adm No: SCH01-001"
+                                android:textSize="9sp"
+                                android:textColor="@color/brand_white"
+                                android:gravity="center"
+                                android:layout_marginTop="2dp" />
+
+                        </LinearLayout>
+
+                        <!-- Barcode Image mockup -->
+                        <ImageView
+                            android:id="@+id/ivBarcode"
+                            android:layout_width="140dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="28dp"
+                            android:scaleType="fitXY"
+                            android:background="#cccccc" />
+
+                    </RelativeLayout>
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+
+        <!-- Bottom Half: Scrollable Settings Dashboard -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@color/brand_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                 <!-- Template Settings Module Card -->
+                 <com.google.android.material.card.MaterialCardView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="16dp"
+                     app:cardCornerRadius="16dp"
+                     app:cardElevation="0dp"
+                     app:strokeWidth="1dp"
+                     app:strokeColor="@color/brand_secondary"
+                     app:cardBackgroundColor="@color/brand_surface">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:padding="16dp">
+
+                         <Button
+                             android:id="@+id/btnUploadTemplate"
+                             style="@style/Widget.Material3.Button.OutlinedButton"
+                             android:layout_width="match_parent"
+                             android:layout_height="52dp"
+                             android:text="Upload Template Image"
+                             android:textColor="@color/brand_secondary"
+                             android:textSize="14sp"
+                             android:padding="0dp"
+                             android:insetTop="0dp"
+                             android:insetBottom="0dp"
+                             app:iconPadding="6dp"
+                             app:iconSize="20dp"
+                             app:strokeColor="@color/brand_secondary"
+                             app:cornerRadius="26dp"
+                             app:iconTint="@color/brand_secondary"
+                             app:icon="@android:drawable/ic_menu_gallery" />
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="16dp"
+                             android:layout_marginBottom="6dp"
+                             android:text="CARD TEXT COLOR"
+                             android:textSize="11sp"
+                             android:fontFamily="sans-serif-medium"
+                             android:textColor="@color/brand_on_surface_variant"
+                             android:letterSpacing="0.05" />
+
+                         <RadioGroup
+                             android:id="@+id/rgTextColor"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal">
+                             <RadioButton
+                                 android:id="@+id/rbWhiteText"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="White (Default)"
+                                 android:checked="true"
+                                 android:textColor="@color/brand_primary"
+                                 android:buttonTint="@color/brand_secondary"
+                                 android:layout_marginEnd="24dp" />
+                             <RadioButton
+                                 android:id="@+id/rbBlackText"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/brand_primary"
+                                 android:buttonTint="@color/brand_secondary"
+                                 android:text="Black" />
+                         </RadioGroup>
+
+                     </LinearLayout>
+                 </com.google.android.material.card.MaterialCardView>
+
+                 <!-- Photo Configurations Card -->
+                 <com.google.android.material.card.MaterialCardView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="16dp"
+                     app:cardCornerRadius="16dp"
+                     app:cardElevation="0dp"
+                     app:strokeWidth="1dp"
+                     app:strokeColor="@color/brand_outline"
+                     app:cardBackgroundColor="@color/brand_surface">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:padding="16dp">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text="Photo Frame Configurations"
+                             android:textColor="@color/brand_primary"
+                             android:fontFamily="sans-serif-medium"
+                             android:textSize="15sp"
+                             android:layout_marginBottom="12dp" />
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="PHOTO FRAME SHAPE"
+                             android:textSize="11sp"
+                             android:fontFamily="sans-serif-medium"
+                             android:textColor="@color/brand_on_surface_variant"
+                             android:letterSpacing="0.05"
+                             android:layout_marginBottom="6dp" />
+
+                         <RadioGroup
+                             android:id="@+id/rgPhotoShape"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:layout_marginBottom="16dp">
+                             <RadioButton
+                                 android:id="@+id/rbCircle"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="Circle (Default)"
+                                 android:textColor="@color/brand_primary"
+                                 android:checked="true"
+                                 android:buttonTint="@color/brand_secondary"
+                                 android:layout_marginEnd="24dp" />
+                             <RadioButton
+                                 android:id="@+id/rbRectangle"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:textColor="@color/brand_primary"
+                                 android:buttonTint="@color/brand_secondary"
+                                 android:text="Rectangle" />
+                         </RadioGroup>
+
+                         <!-- Photo Size Slider -->
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:gravity="center_vertical"
+                             android:layout_marginBottom="4dp">
+                             <TextView
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:text="Photo Frame Size"
+                                 android:textSize="13sp"
+                                 android:textColor="@color/brand_primary" />
+                             <TextView
+                                 android:id="@+id/tvPhotoSizeVal"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="156 dp"
+                                 android:fontFamily="sans-serif-medium"
+                                 android:textColor="@color/brand_primary"
+                                 android:textSize="13sp"/>
+                         </LinearLayout>
+                         <SeekBar
+                             android:id="@+id/sbPhotoSize"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:max="120"
+                             android:progress="56"
+                             android:thumbTint="@color/brand_secondary"
+                             android:progressTint="@color/brand_secondary"
+                             android:layout_marginBottom="16dp" />
+
+                         <!-- Photo Y Slider -->
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:gravity="center_vertical"
+                             android:layout_marginBottom="4dp">
+                             <TextView
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:text="Photo Vertical Position (Y)"
+                                 android:textSize="13sp"
+                                 android:textColor="@color/brand_primary" />
+                             <TextView
+                                 android:id="@+id/tvPhotoYVal"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="120 dp"
+                                 android:fontFamily="sans-serif-medium"
+                                 android:textColor="@color/brand_primary"
+                                 android:textSize="13sp"/>
+                         </LinearLayout>
+                         <SeekBar
+                             android:id="@+id/sbPhotoY"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:max="250"
+                             android:progress="120"
+                             android:thumbTint="@color/brand_secondary"
+                             android:progressTint="@color/brand_secondary" />
+
+                     </LinearLayout>
+                 </com.google.android.material.card.MaterialCardView>
+
+                 <!-- Text & Barcode Positions Card -->
+                 <com.google.android.material.card.MaterialCardView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="24dp"
+                     app:cardCornerRadius="16dp"
+                     app:cardElevation="0dp"
+                     app:strokeWidth="1dp"
+                     app:strokeColor="@color/brand_outline"
+                     app:cardBackgroundColor="@color/brand_surface">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:padding="16dp">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:text="Details &amp; Barcode Layout"
+                             android:textColor="@color/brand_primary"
+                             android:fontFamily="sans-serif-medium"
+                             android:textSize="15sp"
+                             android:layout_marginBottom="12dp" />
+
+                         <!-- Text Y Slider -->
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:gravity="center_vertical"
+                             android:layout_marginBottom="4dp">
+                             <TextView
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:text="Text Vertical Position (Y)"
+                                 android:textSize="13sp"
+                                 android:textColor="@color/brand_primary" />
+                             <TextView
+                                 android:id="@+id/tvTextYVal"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="184 dp"
+                                 android:fontFamily="sans-serif-medium"
+                                 android:textColor="@color/brand_primary"
+                                 android:textSize="13sp"/>
+                         </LinearLayout>
+                         <SeekBar
+                             android:id="@+id/sbTextY"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:max="350"
+                             android:progress="184"
+                             android:thumbTint="@color/brand_secondary"
+                             android:progressTint="@color/brand_secondary"
+                             android:layout_marginBottom="16dp" />
+
+                         <!-- Barcode Y Slider -->
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:orientation="horizontal"
+                             android:gravity="center_vertical"
+                             android:layout_marginBottom="4dp">
+                             <TextView
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="1"
+                                 android:text="Barcode Bottom Margin"
+                                 android:textSize="13sp"
+                                 android:textColor="@color/brand_primary" />
+                             <TextView
+                                 android:id="@+id/tvBarcodeYVal"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:text="38 dp"
+                                 android:fontFamily="sans-serif-medium"
+                                 android:textColor="@color/brand_primary"
+                                 android:textSize="13sp"/>
+                         </LinearLayout>
+                         <SeekBar
+                             android:id="@+id/sbBarcodeY"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:max="120"
+                             android:progress="38"
+                             android:thumbTint="@color/brand_secondary"
+                             android:progressTint="@color/brand_secondary" />
+
+                     </LinearLayout>
+                 </com.google.android.material.card.MaterialCardView>
+
+                 <!-- Actions -->
+                 <Button
+                     android:id="@+id/btnSaveConfig"
+                     android:layout_width="match_parent"
+                     android:layout_height="56dp"
+                     android:text="Save Custom Layout"
+                     android:backgroundTint="@color/brand_secondary"
+                     android:textColor="@color/brand_white"
+                     app:cornerRadius="28dp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

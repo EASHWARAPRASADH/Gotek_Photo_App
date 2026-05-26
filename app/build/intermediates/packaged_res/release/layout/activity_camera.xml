@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_black">
+
+    <!-- Back Button -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="@color/brand_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Go Back" />
+
+    <!-- ID Card Container -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/idCardContainer"
+        android:layout_width="290dp"
+        android:layout_height="493dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="@color/brand_black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvInstructions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- ID Card Background template image -->
+        <FrameLayout
+            android:id="@+id/flCardBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/id_card_template_gold">
+
+            <!-- Content overlay container -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Circular/Rectangle Student Photo Container containing the Live Camera View -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/photoCardView"
+                    android:layout_width="156dp"
+                    android:layout_height="156dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="120dp"
+                    app:cardCornerRadius="78dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+
+                    <androidx.camera.view.PreviewView
+                        android:id="@+id/viewFinder"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Student Details Area -->
+                <LinearLayout
+                    android:id="@+id/llStudentDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/photoCardView"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="24dp">
+
+                    <!-- Student Name -->
+                    <TextView
+                        android:id="@+id/tvCameraStudentName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student Name"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/brand_white"
+                        android:gravity="center" />
+
+                    <!-- Divider -->
+                    <View
+                        android:id="@+id/vDivider"
+                        android:layout_width="60dp"
+                        android:layout_height="1.5dp"
+                        android:background="#D4AF37"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="6dp" />
+
+                    <!-- Details Table -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/tvCameraAdmissionNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Adm No: SCH01-10-A-3"
+                            android:textSize="12sp"
+                            android:textColor="@color/brand_white"
+                            android:layout_marginBottom="2dp" />
+
+                        <TextView
+                            android:id="@+id/tvCameraClass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Class: 10 - A"
+                            android:textSize="12sp"
+                            android:textColor="@color/brand_white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Dynamic Barcode Overlay -->
+                <ImageView
+                    android:id="@+id/ivCameraBarcode"
+                    android:layout_width="160dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="38dp"
+                    android:scaleType="fitXY" />
+
+            </RelativeLayout>
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Align student's face inside the photo box"
+        android:textColor="@color/brand_white"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/btnCapture" />
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/capture_button"
+        android:elevation="10dp"
+        android:contentDescription="Capture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:indeterminateTint="@color/brand_white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

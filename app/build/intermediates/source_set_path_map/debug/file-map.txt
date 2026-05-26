@@ -1,0 +1,67 @@
+com.studentidphotocapture.app-navigation-fragment-ktx-2.7.6-0 /Users/eash/.gradle/caches/transforms-3/12002db5f18c11ac02f29cfcf3810dc4/transformed/navigation-fragment-ktx-2.7.6/res
+com.studentidphotocapture.app-transition-1.4.1-1 /Users/eash/.gradle/caches/transforms-3/12bd00f8d8c3cdf5e0bfbc43c157747f/transformed/transition-1.4.1/res
+com.studentidphotocapture.app-fragment-ktx-1.6.2-2 /Users/eash/.gradle/caches/transforms-3/147c4f5844b5448922dbb2f45286925b/transformed/fragment-ktx-1.6.2/res
+com.studentidphotocapture.app-datastore-1.0.0-3 /Users/eash/.gradle/caches/transforms-3/1660cb49fd44b8a3bd50d01d346818ce/transformed/datastore-1.0.0/res
+com.studentidphotocapture.app-appcompat-resources-1.6.1-4 /Users/eash/.gradle/caches/transforms-3/1a2eec9eed527f4267b90a8a0deb7cbe/transformed/appcompat-resources-1.6.1/res
+com.studentidphotocapture.app-datastore-preferences-1.0.0-5 /Users/eash/.gradle/caches/transforms-3/1b58ef35ea0e468adad587f3beccaa53/transformed/datastore-preferences-1.0.0/res
+com.studentidphotocapture.app-navigation-runtime-2.7.6-6 /Users/eash/.gradle/caches/transforms-3/1b9d52b0616aa12e922b45f7cc02a76d/transformed/navigation-runtime-2.7.6/res
+com.studentidphotocapture.app-core-1.12.0-7 /Users/eash/.gradle/caches/transforms-3/1ebf8fa5e626d23d58f78d3ce24abe2e/transformed/core-1.12.0/res
+com.studentidphotocapture.app-material-1.11.0-8 /Users/eash/.gradle/caches/transforms-3/2235072e95036f06e24c054d0ca100cd/transformed/material-1.11.0/res
+com.studentidphotocapture.app-navigation-ui-ktx-2.7.6-9 /Users/eash/.gradle/caches/transforms-3/2ab77e27ca03a3450103e9900f7fdeb1/transformed/navigation-ui-ktx-2.7.6/res
+com.studentidphotocapture.app-work-runtime-ktx-2.9.0-10 /Users/eash/.gradle/caches/transforms-3/2d8b83b7a6b749f5bab7a3966f02d448/transformed/work-runtime-ktx-2.9.0/res
+com.studentidphotocapture.app-coordinatorlayout-1.1.0-11 /Users/eash/.gradle/caches/transforms-3/2dc7536a70fc7225b350687d16f55950/transformed/coordinatorlayout-1.1.0/res
+com.studentidphotocapture.app-camera-camera2-1.3.1-12 /Users/eash/.gradle/caches/transforms-3/32ba7c16aca015b34527e1e66d4159e6/transformed/camera-camera2-1.3.1/res
+com.studentidphotocapture.app-profileinstaller-1.3.0-13 /Users/eash/.gradle/caches/transforms-3/332b0aa365f00a6b72c57ec6e270abfc/transformed/profileinstaller-1.3.0/res
+com.studentidphotocapture.app-fragment-1.6.2-14 /Users/eash/.gradle/caches/transforms-3/3834bb409285a92339cd967728f01c78/transformed/fragment-1.6.2/res
+com.studentidphotocapture.app-sqlite-2.4.0-15 /Users/eash/.gradle/caches/transforms-3/39d4b3a39bc8723d97254fdfd0a217f2/transformed/sqlite-2.4.0/res
+com.studentidphotocapture.app-startup-runtime-1.1.1-16 /Users/eash/.gradle/caches/transforms-3/43cdf5c47cec76385ff3d580f63ca59d/transformed/startup-runtime-1.1.1/res
+com.studentidphotocapture.app-annotation-experimental-1.3.1-17 /Users/eash/.gradle/caches/transforms-3/45f40258b41e5b2f4a95b6ccc6d5c172/transformed/annotation-experimental-1.3.1/res
+com.studentidphotocapture.app-navigation-common-2.7.6-18 /Users/eash/.gradle/caches/transforms-3/478f212d2f938802ee5e93cc4002f711/transformed/navigation-common-2.7.6/res
+com.studentidphotocapture.app-sqlite-framework-2.4.0-19 /Users/eash/.gradle/caches/transforms-3/49fcb14ce3def8bdbdfa5bc991fd6bf1/transformed/sqlite-framework-2.4.0/res
+com.studentidphotocapture.app-lifecycle-livedata-core-2.7.0-20 /Users/eash/.gradle/caches/transforms-3/4de0ba7a7853cd68f49bbcdebd6616f8/transformed/lifecycle-livedata-core-2.7.0/res
+com.studentidphotocapture.app-navigation-runtime-ktx-2.7.6-21 /Users/eash/.gradle/caches/transforms-3/5fdb6e392caf78d983a43b6d9639882d/transformed/navigation-runtime-ktx-2.7.6/res
+com.studentidphotocapture.app-recyclerview-1.1.0-22 /Users/eash/.gradle/caches/transforms-3/652abc680f141916344bfd0ec7b2df6a/transformed/recyclerview-1.1.0/res
+com.studentidphotocapture.app-room-ktx-2.6.1-23 /Users/eash/.gradle/caches/transforms-3/67473bc420d42e5015fa188b2ee8aa2e/transformed/room-ktx-2.6.1/res
+com.studentidphotocapture.app-play-services-basement-18.1.0-24 /Users/eash/.gradle/caches/transforms-3/679b68fad77250f875fbac1cac775659/transformed/play-services-basement-18.1.0/res
+com.studentidphotocapture.app-camera-view-1.3.1-25 /Users/eash/.gradle/caches/transforms-3/69775c9aa4cb833dd666ffae4bc88a10/transformed/camera-view-1.3.1/res
+com.studentidphotocapture.app-savedstate-ktx-1.2.1-26 /Users/eash/.gradle/caches/transforms-3/69d090f2d9ec5c973e3fee645c67f0c5/transformed/savedstate-ktx-1.2.1/res
+com.studentidphotocapture.app-lifecycle-livedata-ktx-2.7.0-27 /Users/eash/.gradle/caches/transforms-3/69e7f1ee21df0157059d370830662cc6/transformed/lifecycle-livedata-ktx-2.7.0/res
+com.studentidphotocapture.app-drawerlayout-1.1.1-28 /Users/eash/.gradle/caches/transforms-3/6fda6938839b3ce222620d207cea6973/transformed/drawerlayout-1.1.1/res
+com.studentidphotocapture.app-core-ktx-1.12.0-29 /Users/eash/.gradle/caches/transforms-3/761e2cec4ec1bdd75692501317ad58dc/transformed/core-ktx-1.12.0/res
+com.studentidphotocapture.app-constraintlayout-2.1.4-30 /Users/eash/.gradle/caches/transforms-3/7c212a237280b4cc85ec85aaac16eb9b/transformed/constraintlayout-2.1.4/res
+com.studentidphotocapture.app-navigation-ui-2.7.6-31 /Users/eash/.gradle/caches/transforms-3/7f02a1d29fe618020eaeb58a3dde1aaa/transformed/navigation-ui-2.7.6/res
+com.studentidphotocapture.app-lifecycle-runtime-ktx-2.7.0-32 /Users/eash/.gradle/caches/transforms-3/7fcf25e3f7d3a838992e36eb8901be21/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.studentidphotocapture.app-emoji2-1.2.0-33 /Users/eash/.gradle/caches/transforms-3/7fec82b34054410259452fae13c35c1a/transformed/emoji2-1.2.0/res
+com.studentidphotocapture.app-room-runtime-2.6.1-34 /Users/eash/.gradle/caches/transforms-3/816a1c31dc037ac4a3b44ff98fb8beba/transformed/room-runtime-2.6.1/res
+com.studentidphotocapture.app-activity-1.8.0-35 /Users/eash/.gradle/caches/transforms-3/8e54a18d4c1776eef090a7c4b8b28453/transformed/activity-1.8.0/res
+com.studentidphotocapture.app-cardview-1.0.0-36 /Users/eash/.gradle/caches/transforms-3/8fd0179c18a8b3e8690f48c35d1a2553/transformed/cardview-1.0.0/res
+com.studentidphotocapture.app-lifecycle-runtime-2.7.0-37 /Users/eash/.gradle/caches/transforms-3/91ea1ab055fe6f5d60758454369ae89b/transformed/lifecycle-runtime-2.7.0/res
+com.studentidphotocapture.app-work-runtime-2.9.0-38 /Users/eash/.gradle/caches/transforms-3/9440b51b32c551a8ff8b4a7ee25c2b01/transformed/work-runtime-2.9.0/res
+com.studentidphotocapture.app-window-1.0.0-39 /Users/eash/.gradle/caches/transforms-3/96fd681e691cc6443195ce4288a78a61/transformed/window-1.0.0/res
+com.studentidphotocapture.app-lifecycle-livedata-2.7.0-40 /Users/eash/.gradle/caches/transforms-3/97c818b11d696d3bdd485b3891657378/transformed/lifecycle-livedata-2.7.0/res
+com.studentidphotocapture.app-lifecycle-viewmodel-2.7.0-41 /Users/eash/.gradle/caches/transforms-3/99cce8db65cf0be61a8bcce84bda3b6a/transformed/lifecycle-viewmodel-2.7.0/res
+com.studentidphotocapture.app-activity-ktx-1.8.0-42 /Users/eash/.gradle/caches/transforms-3/9a380e9b539e18484d0acd0c1b72ecfa/transformed/activity-ktx-1.8.0/res
+com.studentidphotocapture.app-camera-lifecycle-1.3.1-43 /Users/eash/.gradle/caches/transforms-3/9be130e716c1398730cff4bb6e8442fe/transformed/camera-lifecycle-1.3.1/res
+com.studentidphotocapture.app-emoji2-views-helper-1.2.0-44 /Users/eash/.gradle/caches/transforms-3/9cac1739060ef8b5f8c666e633ba12ba/transformed/emoji2-views-helper-1.2.0/res
+com.studentidphotocapture.app-core-runtime-2.2.0-45 /Users/eash/.gradle/caches/transforms-3/9d73beee2cd1a11165702a037152ccd1/transformed/core-runtime-2.2.0/res
+com.studentidphotocapture.app-viewpager2-1.0.0-46 /Users/eash/.gradle/caches/transforms-3/a59d9cb0b5b48fc79ab7ee8b5e792375/transformed/viewpager2-1.0.0/res
+com.studentidphotocapture.app-lifecycle-process-2.7.0-47 /Users/eash/.gradle/caches/transforms-3/c2ddba7f36c4ee6de990bcabb4dd0ed7/transformed/lifecycle-process-2.7.0/res
+com.studentidphotocapture.app-lifecycle-viewmodel-savedstate-2.7.0-48 /Users/eash/.gradle/caches/transforms-3/cf09efedf9df0d51f59bc1383293e4bb/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.studentidphotocapture.app-camera-core-1.3.1-49 /Users/eash/.gradle/caches/transforms-3/d10108d6659d86a1963650ec36cde096/transformed/camera-core-1.3.1/res
+com.studentidphotocapture.app-slidingpanelayout-1.2.0-50 /Users/eash/.gradle/caches/transforms-3/d36341cb94888263eaca91b753750b4e/transformed/slidingpanelayout-1.2.0/res
+com.studentidphotocapture.app-play-services-base-18.1.0-51 /Users/eash/.gradle/caches/transforms-3/d3e11d19ccba15797dceb552f8a59e1d/transformed/play-services-base-18.1.0/res
+com.studentidphotocapture.app-savedstate-1.2.1-52 /Users/eash/.gradle/caches/transforms-3/d920ee69c91948afd2de511cf13df1d8/transformed/savedstate-1.2.1/res
+com.studentidphotocapture.app-lifecycle-viewmodel-ktx-2.7.0-53 /Users/eash/.gradle/caches/transforms-3/e0a707f41851bb440b8f4d7bdcff498c/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.studentidphotocapture.app-lifecycle-service-2.7.0-54 /Users/eash/.gradle/caches/transforms-3/e29de941d6298478e6f898e32f4883d2/transformed/lifecycle-service-2.7.0/res
+com.studentidphotocapture.app-navigation-common-ktx-2.7.6-55 /Users/eash/.gradle/caches/transforms-3/e2a22f168ef2320e0d97e9cdfeae8227/transformed/navigation-common-ktx-2.7.6/res
+com.studentidphotocapture.app-appcompat-1.6.1-56 /Users/eash/.gradle/caches/transforms-3/e993edf1f459c4464ef157c70412777e/transformed/appcompat-1.6.1/res
+com.studentidphotocapture.app-camera-video-1.3.1-57 /Users/eash/.gradle/caches/transforms-3/f314f872c20bf27ed4db45943a73b965/transformed/camera-video-1.3.1/res
+com.studentidphotocapture.app-navigation-fragment-2.7.6-58 /Users/eash/.gradle/caches/transforms-3/fdceba5712c2c931d160618e52b2aad4/transformed/navigation-fragment-2.7.6/res
+com.studentidphotocapture.app-lifecycle-livedata-core-ktx-2.7.0-59 /Users/eash/.gradle/caches/transforms-3/fe5272948f846551b4831f10910bcadf/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.studentidphotocapture.app-pngs-60 /Users/eash/Downloads/android app 2/app/build/generated/res/pngs/debug
+com.studentidphotocapture.app-resValues-61 /Users/eash/Downloads/android app 2/app/build/generated/res/resValues/debug
+com.studentidphotocapture.app-packageDebugResources-62 /Users/eash/Downloads/android app 2/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.studentidphotocapture.app-packageDebugResources-63 /Users/eash/Downloads/android app 2/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.studentidphotocapture.app-merged_res-64 /Users/eash/Downloads/android app 2/app/build/intermediates/merged_res/debug
+com.studentidphotocapture.app-debug-65 /Users/eash/Downloads/android app 2/app/src/debug/res
+com.studentidphotocapture.app-main-66 /Users/eash/Downloads/android app 2/app/src/main/res
